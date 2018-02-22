@@ -4,25 +4,15 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 
-/**
- * Created by gaokuo on 2018/2/22.
- */
-
-class Temp{
-    void fun(){
-        System.out.println("temp fun");
-    }
-}
-
 public class AnonyClass {
 
     public static void main(String[] args) {
 
         //1. 普通new对象
-        new Temp().fun();
+//        new Temp().fun();
 
         //2. new对象，并完成类中实现
-        new Temp(){
+        new Object(){
             void fun(){
                 System.out.println("anony fun");
             }

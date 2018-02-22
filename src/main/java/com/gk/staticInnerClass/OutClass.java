@@ -22,7 +22,7 @@ public class OutClass {
     }
 
 
-    static class InnerClass{
+     static class InnerClass{
         private String ps1 = "内部类私有变量";
         private static String ps2 = "内部类私有静态变量";
         public String ps3 = "内部类公有变量";
